@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#body{
+    width: 100%;
+    max-width: 1400px;
+    display: block;
+    margin: auto;
+    min-height: 100vh;
+    background: rgb(0, 0, 0);
+    font-family: sans-serif;
+}
+#project{
+    color: white;
+}
+
+.navbar{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    background: #000000;
+}
+
+.link-group{
+    list-style: none;
+    display: flex;
+}
+
+.link a{
+    color: #fff;
+    opacity: 0.5;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 10px 30px;
+    margin: 0 20px;
+    line-height: 100px;
+    transition: .5s;
+    font-size: 20px;
+}
+
+.link a:hover, .link.active a{
+    opacity: 6;
+}
+
+.home-section{
+    width: 100%;
+    height: 100vh;
+    padding: 0 150px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 0;
+    opacity: 0;
+    transition: 1s;
+    
+}
+
+.heading{
+    color: #fff;
+    height: 70vh;
+    font-size: 120px;
+    text-transform: capitalize;
+    font-weight: 300;
+}
+.soft{
+    position: absolute;
+    display: inline;
+    margin-top: 70px;
+   
+    font-size: 50px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.home-img{
+    position: absolute;
+    
+    top: 0;
+  right: 0;
+    height: 100%;
+    width: 50%;
+    object-fit:cover;
+    opacity: 0.5;
+}
+
+.home-section{
+    /* previous styles */
+    position: fixed;
+}
+
+.home-section.active{
+    position: relative;
+    opacity: 10;
+    z-index: 8;
+}
+
+.display-4{
+    color: white;
+}
+
+.skills {
+    max-width: 68.75rem;
+    margin: auto;
+    text-align: center;
+    margin-top: 2.5rem;
+  }
+  
+  .skill-header {
+    margin-bottom: 1rem;
+  }
+  
+  .skills-wrapper img {
+    padding: 1.25rem;
+  }
+  
+  .icon {
+    width: 11.875rem;
+    height: 11.25rem;
+  }
+
+  .icon-card {
+    background-color: #000000;
+    border-radius: 11px;
+    box-shadow: 5px 5px 15px rgb(105, 101, 101);
+    padding: 20px;
+    margin: 10px;
+  }
+
+
+h3{
+    font-size: 50px;
+}
+p{
+    text-align: justify;
+}
+
+.about-img{
+    position: relative;
+    height: 800px;
+    width: 500px;
+}
